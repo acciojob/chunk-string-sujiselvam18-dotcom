@@ -18,4 +18,4 @@ function stringChop(str, size) {
 // Do not change below
 const str = prompt("Enter String.");
 const size = prompt("Enter Chunk Size.");
-alert(JSON.stringify(stringChop(str, size)));
+alert(stringChop(str, size));
